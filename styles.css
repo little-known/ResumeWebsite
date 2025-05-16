@@ -1,0 +1,487 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    background: #FFFFFF;
+    color: #21243D;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Навигация */
+.nav {
+    display: flex;
+    justify-content: end;
+    margin-top: 27px;
+    margin-right: 64px;
+}
+
+.nav .menu-icon {
+    display: none;
+}
+
+.nav-links a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 31px;
+}
+
+.nav-links a:first-of-type {
+    margin-left: 0;
+}
+
+.nav-links a:hover {
+    color: #FF6464;
+}
+
+/* Главная секция */
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 172px;
+}
+
+.hero-text {
+    width: 506px;
+    margin-left: 148px;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin: 0 0 25px 0;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 32px 0;
+}
+
+.resume-btn {
+    background: #FF6464;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+.hero-image {
+    position: relative;
+    left: 105px;
+    top: -40px;
+}
+
+.ellipse-bg {
+    position: absolute;
+    z-index: -1;
+    width: 243px;
+    height: 243px;
+    background: #EDF7FA;
+    border-radius: 50%;
+    top: 13px;
+    left: -5px;
+}
+
+.hero-image img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+
+/* Секция Recent Posts */
+.recent-posts {
+    background: #EDF7FA;
+    width: 100%;
+    padding: 21px 0;
+    margin-top: 70px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 148px;
+}
+
+.section-header h2 {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+}
+
+.view-all {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+.posts-container {
+    display: flex;
+    gap: 20px;
+    margin: 18px 148px;
+}
+
+.post-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 24px;
+    width: 418px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+
+.post-card h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin: 0 0 26px 0;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.post-meta .separator {
+    width: 1px;
+    height: 21px;
+    background: #000000;
+    margin: 0 26px;
+}
+
+.post-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* Секция Featured Works */
+.featured-works {
+    margin: 50px 148px;
+}
+
+.featured-works h2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    margin: 0 0 24px 0;
+}
+
+.work-item {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 32px;
+}
+
+.work-item img {
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+.work-details h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    margin: 0 0 16px 0;
+}
+
+.work-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.work-meta .year {
+    background: #142850;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin-right: 26px;
+}
+
+.work-meta span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.work-details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #E0E0E0;
+    margin: 32px 0;
+}
+
+/* Футер */
+.footer {
+    text-align: center;
+    padding: 54px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 26px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+@media (max-width: 1152px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Навигация */
+    .nav {
+        margin: 0;
+        padding: 20px 18px;
+        background: #FFFFFF;
+        position: relative;
+        justify-content: flex-end;
+    }
+
+    .nav .menu-icon {
+        display: block;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    .nav .menu-icon span {
+        display: block;
+        width: 30px;
+        height: 2px;
+        background: #21243D;
+        margin-bottom: 7px;
+    }
+
+    .nav .menu-icon span:last-child {
+        margin-bottom: 0;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 18px;
+        background: #FFFFFF;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    /* Главная секция */
+    .hero {
+        flex-direction: column-reverse;
+        margin-top: 83px;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 328px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 0 20px 0;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 30px 0;
+    }
+
+    .resume-btn {
+        width: 208px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .hero-image {
+        left: 0;
+        top: 0;
+        margin-bottom: 30px;
+    }
+
+    .ellipse-bg {
+        top: 9.14px;
+        left: 0;
+    }
+
+    /* Секция Recent Posts */
+    .recent-posts {
+        padding: 21px 0;
+        margin-top: 50px;
+    }
+
+    .section-header {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .section-header h2 {
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+    .view-all {
+        display: none;
+    }
+
+    .posts-container {
+        flex-direction: column;
+        margin: 18px 11px;
+        gap: 17px;
+        align-items: center;
+    }
+
+    .post-card {
+        max-width: 354px;
+        padding: 16px;
+    }
+
+    .post-card h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 0 0 16px 0;
+    }
+
+    .post-meta {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .post-meta .separator {
+        margin: 0 24px;
+    }
+
+    /* Секция Featured Works */
+    .featured-works {
+        margin: 30px 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-works h2 {
+        font-size: 18px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .work-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        max-width: 344px;
+    }
+
+    .work-item img {
+        width: 100%;
+        max-width: 344px;
+        height: auto;
+        max-height: 230px;
+    }
+
+    .work-details h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 16px 0 10px 0;
+    }
+
+    .work-meta {
+        margin-bottom: 10px;
+    }
+
+    .work-meta .year {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 8px;
+        margin-right: 20px;
+    }
+
+    .work-meta span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .work-details p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+
+    /* Футер */
+    .footer {
+        padding: 30px 0;
+    }
+
+    .social-icons {
+        gap: 35px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
